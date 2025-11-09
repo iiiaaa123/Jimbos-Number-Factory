@@ -9,6 +9,9 @@ SMODS.Challenge {
             {id = 'no_extra_hand_money'},
             {id = 'no_interest'}
         },
+        modifiers = {
+            {SMODS.change_voucher_limit(-1)},
+        }
     },
     deck = {
         type = 'Challenge Deck'
