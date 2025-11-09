@@ -1,0 +1,13 @@
+SMODS.Back {
+	key = "tony",
+	loc_txt = {
+		name = "Tony Deck",
+		text = {
+			"Start with an empty Deck",
+			"and {C:attention}13 Standard Tags{}",
+		}
+	},
+	atlas = 'MisersMenagerieDecks',
+	pos = {x = 0, y = 0},
+	config = { standardspam = true },
+}
