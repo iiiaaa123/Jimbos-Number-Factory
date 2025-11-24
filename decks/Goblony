@@ -1,0 +1,13 @@
+SMODS.Back {
+	key = "goblony",
+	loc_txt = {
+		name = "Goblin Deck",
+		text = {
+			"{C:money}+$2{} to your interest,",
+			"every {C:blue}hand{} costs {C:attention}2{} {C:blue}hands{}.",
+		}
+	},
+	atlas = 'MisersMenagerieDecks',
+	pos = {x = 0, y = 0},
+	config = { standardspam = true },
+}
