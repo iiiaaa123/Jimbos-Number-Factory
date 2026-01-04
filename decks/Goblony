@@ -7,7 +7,7 @@ SMODS.Back {
 			"every {C:blue}hand{} costs {C:attention}2{} {C:blue}hands{}.",
 		}
 	},
-	atlas = 'MisersMenagerieDecks',
+	atlas = 'Nubbys-Decks',
 	pos = {x = 3, y = 0},
-	config = { standardspam = true },
+	config = { tripleinterest = true },
 }
