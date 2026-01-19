@@ -4,11 +4,6 @@ SMODS.Challenge {
         name ='Pol's Bane'
     },
     rules = {
-        custom = {
-            {id = 'no_reward'},
-            {id = 'no_extra_hand_money'},
-            {id = 'no_interest'}
-        },
         modifiers = {
             {SMODS.change_voucher_limit(-1)},
         }
