@@ -1,3 +1,12 @@
+--- STEAMODDED HEADER
+--- MOD_NAME: Jimbo's Number Factory
+--- MOD_ID: JimbosNumberFactory
+--- MOD_AUTHOR: [Penny]
+--- MOD_DESCRIPTION: The Nubbiest Balatro mod you've ever seen.
+----------------------------------------------
+------------MOD CODE -------------------------
+
+
 SMODS.Atlas({
 	key = "modicon",
 	path = "Nubbys-ModIcon.png",
