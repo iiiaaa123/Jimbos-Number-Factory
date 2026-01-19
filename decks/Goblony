@@ -10,4 +10,9 @@ SMODS.Back {
 	atlas = 'Nubbys-Decks',
 	pos = {x = 3, y = 0},
 	config = { tripleinterest = true },
+	calculate = function(self,instance,context)
+    	if context.before then
+             ease_hands_played(-1)
+		end
+    end,
 }
