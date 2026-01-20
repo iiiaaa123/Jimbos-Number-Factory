@@ -1,0 +1,13 @@
+{
+	"id": "jimbosnumberfactory",
+	"name": "Jimbo's Number Factory",
+	"display_name": "Jimbo's Number Factory",
+	"author": ["Penny"],
+	"description": "The Nubbiest (trademark pending) Balatro mod you've ever seen",
+	"prefix": "nubbers",
+	"main_file": "atlases-all-around.lua",
+	"priority": 0,
+	"badge_colour": "8292c6",
+	"badge_text_colour": "",
+	"version": "0.0.1",
+}
