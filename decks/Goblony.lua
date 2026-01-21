@@ -16,4 +16,10 @@ SMODS.Back {
              ease_hands_played(-1)
 		end
     end,
+	apply = function(self)
+		G.E_MANAGER:add_event(Event({func = function()
+			G.GAME.interest_amount = G.GAME.interest_amount * 3
+		return true end}))
+	end
 }
+
