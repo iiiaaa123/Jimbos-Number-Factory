@@ -6,13 +6,13 @@ SMODS.Challenge {
     rules = {
         custom = {
             { id = polsbane },
-        }
+        },
     },
     restrictions = {
         banned_tags = {
-            {id = tag_vouchetr}
-        }
-    }
+            {id = tag_voucher},
+        },
+    },
     deck = {
         type = 'Challenge Deck'
     },
