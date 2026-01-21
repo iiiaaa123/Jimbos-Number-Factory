@@ -23,10 +23,14 @@ assert(SMODS.load_file('decks/Goblony.lua'))()
 
 --Challenges
 assert(SMODS.load_file('challenges/Pols-Bane.lua'))()
+assert(SMODS.load_file('challenges/challenges-utils.lua'))()
 
 --Blinds
 
 --Tags
+
+--Other
+assert(SMODS.load_file('localization/default.lua'))()
 
 SMODS.Atlas({
 	key = "modicon",
