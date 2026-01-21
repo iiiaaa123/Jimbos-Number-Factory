@@ -1,8 +1,32 @@
 ----------------------------------------------
 ------------MOD CODE -------------------------
 
+--ASSERTING TIMEEEE :D
+
+--Jokers
+	--Common
+
+	--Uncommon
+
+	--Rare
+
+	--Legendary (probs none but good to have)
+
+	--Evil
+
+	--Black Market
+
+--Consumables
+
+--Decks
 assert(SMODS.load_file('decks/Goblony.lua'))()
+
+--Challenges
 assert(SMODS.load_file('challenges/Pols-Bane.lua'))()
+
+--Blinds
+
+--Tags
 
 SMODS.Atlas({
 	key = "modicon",
