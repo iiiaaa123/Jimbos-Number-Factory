@@ -8,6 +8,11 @@ SMODS.Challenge {
             { id = polsbane },
         }
     },
+    restrictions = {
+        banned_tags = {
+            {id = tag_vouchetr}
+        }
+    }
     deck = {
         type = 'Challenge Deck'
     },
