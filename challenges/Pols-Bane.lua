@@ -5,7 +5,7 @@ SMODS.Challenge {
     },
     rules = {
         custom = {
-            { id = polsbane },
+            { id = "polsbane" },
         },
     },
     apply = function(self)
