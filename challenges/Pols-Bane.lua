@@ -10,7 +10,7 @@ SMODS.Challenge {
     },
     apply = function(self)
 		G.E_MANAGER:add_event(Event({func = function()
-			SMODS.change_voucher_limit(0)
+			G.GAME.modifiers.extra_vouchers = (G.GAME.modifiers.extra_vouchers or 0) - 1
 		return true end}))
 	end,
     restrictions = {
