@@ -1,7 +1,7 @@
 SMODS.Challenge {
     key = 'polsbane',
     loc_txt = {
-        name ='Pol's Bane'
+        name = "Pol's Bane"
     },
     rules = {
         modifiers = {
