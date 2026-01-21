@@ -3,13 +3,13 @@ SMODS.Back {
 	loc_txt = {
 		name = "Goblin Deck",
 		text = {
---			"{C:money}+$2{} to your interest,",
+			"{C:money}+$2{} to your interest,",
 			"every {C:blue}hand{} costs {C:attention}2{} {C:blue}hands{}.",
 		}
 	},
 	atlas = 'Nubbys-Decks',
 	pos = {x = 3, y = 0},
-	config = { tripleinterest = true , doublehandcost = true },
+	config = { doublehandcost = true , tripleinterest = true },
 	unlocked = true,
 	calculate = function(self,instance,context)
     	if context.before then
