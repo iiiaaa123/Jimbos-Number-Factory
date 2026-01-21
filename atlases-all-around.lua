@@ -1,7 +1,7 @@
 ----------------------------------------------
 ------------MOD CODE -------------------------
 
-assert(SMODS.load_file('Goblony.lua'))()
+assert(SMODS.load_file('decks/Goblony.lua'))()
 
 SMODS.Atlas({
 	key = "modicon",
