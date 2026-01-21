@@ -4,8 +4,8 @@ SMODS.Challenge {
         name = "Pol's Bane"
     },
     rules = {
-        modifiers = {
-            {SMODS.change_voucher_limit(0)},
+        custom = {
+            { id = polsbane },
         }
     },
     deck = {
