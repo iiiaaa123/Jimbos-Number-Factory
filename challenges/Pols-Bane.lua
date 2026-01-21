@@ -12,7 +12,7 @@ SMODS.Challenge {
 		G.E_MANAGER:add_event(Event({func = function()
 			SMODS.change_voucher_limit(0)
 		return true end}))
-	end
+	end,
     restrictions = {
         banned_tags = {
             {id = tag_voucher},
