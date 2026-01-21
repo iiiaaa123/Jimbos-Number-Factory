@@ -15,7 +15,7 @@ SMODS.Challenge {
 	end,
     restrictions = {
         banned_tags = {
-            {id = tag_voucher},
+            { id = "tag_voucher" },
         },
     },
     deck = {
