@@ -5,7 +5,7 @@ SMODS.Challenge {
     },
     rules = {
         modifiers = {
-            {SMODS.change_voucher_limit(-1)},
+            {SMODS.change_voucher_limit(0)},
         }
     },
     deck = {
