@@ -1,6 +1,8 @@
 ----------------------------------------------
 ------------MOD CODE -------------------------
 
+assert(SMODS.load_file('Goblony.lua'))()
+
 SMODS.Atlas({
 	key = "modicon",
 	path = "Nubbys-ModIcon.png",
