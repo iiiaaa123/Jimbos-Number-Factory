@@ -10,7 +10,7 @@ SMODS.Challenge {
     },
     apply = function(self)
 		G.E_MANAGER:add_event(Event({func = function()
-			NUBBY.change_voucher_limit(0)
+			SMODS.change_voucher_limit(-1)
 		return true end}))
 	end,
     restrictions = {
