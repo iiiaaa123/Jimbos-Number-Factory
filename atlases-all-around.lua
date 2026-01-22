@@ -1,5 +1,10 @@
 ----------------------------------------------
 ------------MOD CODE -------------------------
+--NUBBY'S OWN PREFIX
+
+NUBBY = NUBBY or {}
+NUBBY.prefix = SMODS.current_mod.prefix
+NUBBY.config = SMODS.current_mod.config
 
 --ASSERTING TIMEEEE :D
 
