@@ -10,10 +10,11 @@ SMODS.Challenge {
     },
     calculate = function(self, context)
       	if context.type == 'shop_start' then
-      		return true
+			return true
+			for k, v in pairs(G.shop_vouchers.cards) do 
+        		v:start_dissolve()
         end
-		for k, v in pairs(G.shop_vouchers.cards) do 
-        	v:start_dissolve()
+		else
         return false
 	end,
     restrictions = {
