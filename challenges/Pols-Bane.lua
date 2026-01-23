@@ -12,7 +12,8 @@ SMODS.Challenge {
       	if context.type == 'shop_start' then
       		return true
         end
-        SMODS.destroy_cards(G.shop_vouchers.cards)
+		for k, v in pairs(G.shop_vouchers.cards) do 
+        	v:start_dissolve()
         return false
 	end,
     restrictions = {
