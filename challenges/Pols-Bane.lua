@@ -15,7 +15,8 @@ SMODS.Challenge {
         		v:start_dissolve()
         end
 		else
-        return false
+        	return false
+		end
 	end,
     restrictions = {
         banned_tags = {
