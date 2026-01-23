@@ -8,11 +8,11 @@ SMODS.Challenge {
             { id = "polsbane" },
         },
     },
-    apply = function(self)
+    calculate = function(self)
       	if context.type == 'shop_start' then
       		return false
         end
-        SMODS.destroy_cards(G.C.SECONDARY_SET.Voucher)
+        SMODS.destroy_cards(G.vouchers.cards)
         return true
 	end,
     restrictions = {
