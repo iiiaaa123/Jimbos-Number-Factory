@@ -23,7 +23,7 @@
 assert(SMODS.load_file('decks/Goblony.lua'))()
 
 --Challenges
-assert(SMODS.load_file('challenges/Pols-Bane.lua'))()
+--assert(SMODS.load_file('challenges/Pols-Bane.lua'))()
 
 --Blinds
 
