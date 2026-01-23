@@ -9,9 +9,16 @@ SMODS.Challenge {
         },
     },
     apply = function(self)
-		G.E_MANAGER:add_event(Event({func = function()
-			SMODS.change_voucher_limit(-1)
-		return true end}))
+		G.E_MANAGER:add_event(Event({
+  			func = function() 
+      			if context.type == 'shop_start' then
+            		return false
+        		end
+        		SMODS.destroy_cards(G.C.SECONDARY_SET.Voucher)
+        		return true
+    		end,
+    		blocking = false
+		}))
 	end,
     restrictions = {
         banned_tags = {
