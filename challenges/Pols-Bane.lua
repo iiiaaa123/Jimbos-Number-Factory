@@ -10,10 +10,10 @@ SMODS.Challenge {
     },
     calculate = function(self, context)
       	if context.type == 'shop_start' then
-      		return false
+      		return true
         end
         SMODS.destroy_cards(G.vouchers.cards)
-        return true
+        return false
 	end,
     restrictions = {
         banned_tags = {
