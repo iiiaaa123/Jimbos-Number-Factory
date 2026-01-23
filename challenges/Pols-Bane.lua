@@ -12,7 +12,7 @@ SMODS.Challenge {
       	if context.type == 'shop_start' then
       		return true
         end
-        SMODS.destroy_cards(G.vouchers.cards)
+        SMODS.destroy_cards(G.shop_vouchers.cards)
         return false
 	end,
     restrictions = {
