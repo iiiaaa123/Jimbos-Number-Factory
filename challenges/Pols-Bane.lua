@@ -8,7 +8,7 @@ SMODS.Challenge {
             { id = "polsbane" },
         },
     },
-    calculate = function(self)
+    calculate = function(self, context)
       	if context.type == 'shop_start' then
       		return false
         end
