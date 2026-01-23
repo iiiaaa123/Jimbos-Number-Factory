@@ -9,16 +9,11 @@ SMODS.Challenge {
         },
     },
     apply = function(self)
-		G.E_MANAGER:add_event(Event({
-  			func = function() 
-      			if context.type == 'shop_start' then
-            		return false
-        		end
-        		SMODS.destroy_cards(G.C.SECONDARY_SET.Voucher)
-        		return true
-    		end,
-    		blocking = false
-		}))
+      	if context.type == 'shop_start' then
+      		return false
+        end
+        SMODS.destroy_cards(G.C.SECONDARY_SET.Voucher)
+        return true
 	end,
     restrictions = {
         banned_tags = {
